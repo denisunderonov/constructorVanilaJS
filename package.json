@@ -1,0 +1,13 @@
+{
+  "name": "constructorjssolo",
+  "version": "1.0.0",
+  "description": "test project",
+  "scripts": {
+    "serve": "parcel serve ./src/index.html --open"
+  },
+  "author": "Denis Andronov",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}

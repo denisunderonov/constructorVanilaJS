@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.app {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+}
+
+.panel {
+    width: 20%;
+    height: 100%;
+    background-color: #000;
+    border-right: 1px solid #fff;
+    position: absolute;
+}
+
+.site {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20%;
+}
+
+.title {
+    background-color: #fff;
+    width: 95%;
+    height: auto;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.title * {
+    text-align: center;
+}
+
+.columns {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    width: 95%;
+    height: auto;
+    display: flex;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 10px
+}
+
+.column {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000 ;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.text {
+    background-color: #fff;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+    height: auto;
+}
+
+.panel form {
+    width: 90%;
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.panel form p {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#delete-form {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.site img {
+    margin-top: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: 30px;
+    width: 45%;
+    height: auto;
+}
+
+
